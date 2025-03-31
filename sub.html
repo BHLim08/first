@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로젝트1-가구</title>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+
+        $(function(){
+            // 상세페이지 이미지체인지
+            $("#mini1").click(function(){
+                $("#subimg1").fadeIn();
+                $("#subimg2").hide();
+                $("#subimg3").hide();
+            });
+            
+            $("#mini2").click(function(){
+                $("#subimg2").fadeIn();
+                $("#subimg1").hide();
+                $("#subimg3").hide();
+            });
+            
+            $("#mini3").click(function(){
+                $("#subimg3").fadeIn();
+                $("#subimg1").hide();
+                $("#subimg2").hide();
+            });
+
+            //앵커
+            $(".anchor p:nth-of-type(1)").click(function(){
+                $(window).scrollTop(1311);
+            })
+            $(".anchor p:nth-of-type(2)").click(function(){
+                $(window).scrollTop(7350);
+            })
+            $(".anchor p:nth-of-type(3)").click(function(){
+                $(window).scrollTop(8179);
+            })
+            $(".anchor p:nth-of-type(4)").click(function(){
+                $(window).scrollTop(8709);
+            })
+        });
+                
+    </script>
+
+</head>
+
+
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div id="header">
+                <div id="logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+
+                <nav id="menu">
+                    <ul class="menulist">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">LIVING</a></li>
+                        <li><a href="#">STUDY</a></li>
+                        <li><a href="#">KITCHEN</a></li>
+                        <li><a href="#">KIZ</a></li>
+                        <li><a href="#">MAGAZINE</a></li>
+                    </ul>
+                </nav>
+
+                <nav id="login">
+                    <ul>
+                        <li><a href="#">SEARCH</a></li>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">JOIN</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <div class="container">
+        <div id="sub">
+            <div class="subimg">
+                <img src="/img/sub/ss.jpg" alt="subimg" id="subimg1">
+                <img src="/img/sub/ss02.jpg" alt="subimg" id="subimg2">
+                <img src="/img/sub/ss03.jpg" alt="subimg" id="subimg3">
+            
+                <div id="mini1"><img src="/img/sub/ss2.jpg" alt="mini"></div>
+                <div id="mini2"><img src="/img/sub/ss3.jpg" alt="mini"></div>
+                <div id="mini3"><img src="/img/sub/ss4.jpg" alt="mini"></div>
+
+            </div>
+
+            <div id="subtable">
+
+                <table class="subtable1">
+                    <thead>
+                        <tr>
+                            <td colspan="2">모니스W 
+                                <span style="font-size: small;">제품코드 | KCS0005A</span>
+                            
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">239,000원</td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>색상</th>
+                            <td>
+                                <input type="radio" name="color" id="so" value="so" checked> <label for="so">샌드오크</label>
+                                <input type="radio" name="color" id="sp" value="sp"> <label for="sp">샌드화이트</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>크기</th>
+                            <td><input type="radio" name="size" value="size1" id="size1" checked> <label for="size1">가로 800 X 세로 392 X 높이 1083 (mm)</label> <br>
+                                <input type="radio" name="size" value="size2" id="size2"> <label for="size2">가로 600 X 세로 392 X 높이 800 (mm)</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>수량</th>
+                            <td><input type="number"></td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                <button type="button">장바구니</button>
+                                <button type="button">바로구매</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <table class="subtable2">
+
+                    <tr>
+                        <td>배송기간</td>
+                        <td>약 10 일</td>
+                    </tr>
+
+                    <tr>
+                        <td>배송비</td>
+                        <td>무료 배송 (추가비용 지역 배송 안내 참고)</td>
+                    </tr>
+                    <tr>
+                        <td>배송 방법</td>
+                        <td>설치 배송</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+
+        <div id="info">
+
+            <div class="infotable">
+
+                <h3>제품 필수 정보</h3>
+                <h4>안전 등급</h4>
+                <img src="img/sub/e00.JPG" alt="안전등급">
+
+            </div>
+
+            <div class="infotable">
+
+                <table>
+
+                    <tr>
+                        <th>제품명</th>
+                        <td>가구</td>
+                        <th>제조사/제조국</th>
+                        <td>일룸 OEM/대한민국</td>
+                    </tr>
+
+                    <tr>
+                        <th>모델명</th>
+                        <td>3단 수납장 800폭</td>
+                        <th>판매자/수입자</th>
+                        <td>(주)일룸/(주)일룸</td>
+                    </tr>
+                    <tr>
+                        <th>크기(mm)</th>
+                        <td>상세페이지 참조</td>
+                        <th>취급방법 및 취급시 주의사항</th>
+                        <td>상세페이지 참조</td>
+                    </tr>
+                    <tr>
+                        <th>중량(kg)</th>
+                        <td>상세페이지 참조</td>
+                        <th>안전표시(주의,경고 등)</th>
+                        <td>상세페이지 참조</td>
+                    </tr>
+                    <tr>
+                        <th>색상</th>
+                        <td>SO/SP</td>
+                        <th>배송/설치비용</th>
+                        <td>무료배송</td>
+                    </tr>
+
+                    <tr>
+                        <th>구성품</th>
+                        <td>상세페이지 참조</td>
+                        <th>품질보증기간</th>
+                        <td>1년 무상 A/S</td>
+                    </tr>
+
+                    <tr>
+                        <th>주요 소재/재질</th>
+                        <td>상세페이지 참조</td>
+                        <th>as/책임자번호</th>
+                        <td>일룸 고객센터 1577-5670</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="anchorbar">
+        <div class="container">
+            <div class="anchor">
+           
+                    <p>상세정보</p>        
+                    <p>상품평</p>          
+                    <p>Q&A</p>
+                    <p>배송/취소/반품</p>
+            
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="contents">
+            <img src="./img/sub/sub-main.jpg" alt="detaill" id="sub1">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div id="subreview">
+
+            <h2 id="sub2">상품평/REVIEW</h2>
+
+            <div class="reviewtable">
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <img src="./img/sub/rev1.jpg" alt="review">
+                        </td>
+                        <td class="re1">★★★★★</td>
+                        <td class="re2">이선*</td>
+                        <td class="re2">2024-12-13</td>
+                    </tr>
+
+                    <tr>
+                        <td class="re3" colspan="3">레마카페장과 같이 구입했는데 둘이 잘 어울리고 너무 마음에 들어요.
+                            일상에 진심이라는 변우석 배우의 광고 보고 그동안 고민만하던 거실을 정리했네요.
+                            모니스 수납장 실용적이면서 템바도어로 하니 감각적이고 이쁩니다.
+                            깔끔하게 정리되어서 하루 하루 즐거울것 같습니다.</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">
+                            <img src="/img/sub/rev2.jpg" alt="review">
+                        </td>
+                        <td class="re1">★★★★★</td>
+                        <td class="re2">백수*</td>
+                        <td class="re2">2024-11-07</td>
+                    </tr>
+
+                    <tr>
+                        <td class="re3" colspan="3">레마카페장과 같이 구입했는데 둘이 잘 어울리고 너무 마음에 들어요.
+                            일상에 진심이라는 변우석 배우의 광고 보고 그동안 고민만하던 거실을 정리했네요.
+                            모니스 수납장 실용적이면서 템바도어로 하니 감각적이고 이쁩니다.
+                            깔끔하게 정리되어서 하루 하루 즐거울것 같습니다.</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">
+                            <img src="/img/sub/rev3.jpg" alt="review">
+                        </td>
+                        <td class="re1">★★★★★</td>
+                        <td class="re2">김수*</td>
+                        <td class="re2">2024-11-06</td>
+                    </tr>
+
+                    <tr>
+                        <td class="re3" colspan="3">레마카페장과 같이 구입했는데 둘이 잘 어울리고 너무 마음에 들어요.
+                            일상에 진심이라는 변우석 배우의 광고 보고 그동안 고민만하던 거실을 정리했네요.
+                            모니스 수납장 실용적이면서 템바도어로 하니 감각적이고 이쁩니다.
+                            깔끔하게 정리되어서 하루 하루 즐거울것 같습니다.</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="reviewbutton">
+
+                <div class="revbt">
+                    <select name="subrebiew">
+                        <option value="최근등록순">최근등록순</option>
+                        <option value="최근날짜순">최근날짜순</option>
+                        <option value="별점높은순">별점높은순</option>
+                        <option value="별점낮은순">별점낮은순</option>
+                    </select>
+                </div>
+
+                <div class="revbt">
+                    <a href="#">
+                        <p><i class="fa-solid fa-angles-left"></i></p>
+                    </a>
+                    <a href="#">
+                        <p><i class="fa-solid fa-ellipsis"></i><i class="fa-solid fa-ellipsis"></i></p>
+                    </a>
+                    <a href="#">
+                        <p>1</p>
+                    </a>
+                    <a href="#">
+                        <p><i class="fa-solid fa-ellipsis"></i><i class="fa-solid fa-ellipsis"></i></p>
+                    </a>
+                    <a href="#">
+                        <p><i class="fa-solid fa-angles-right"></i></p>
+                    </a>
+                </div>
+
+                <div class="revbt">
+                <button type="button">상품평 작성</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="qna">
+
+            <h2 id="sub3">문의/QnA</h2>
+            <table>
+                <tr>
+                    <td>답변완료</td>
+                    <td>내부 수납간 사이즈가 궁금합니다.</td>
+                    <td>심호*</td>
+                    <td>2025-01-23</td>
+                </tr>
+            </table>
+
+            <div class="qnafooter">
+                <a href="#">
+                    <p><i class="fa-solid fa-angles-left"></i></p>
+                </a>
+                <a href="#">
+                    <p><i class="fa-solid fa-ellipsis"></i><i class="fa-solid fa-ellipsis"></i></p>
+                </a>
+                <a href="#">
+                    <p>1</p>
+                </a>
+                <a href="#">
+                    <p><i class="fa-solid fa-ellipsis"></i><i class="fa-solid fa-ellipsis"></i></p>
+                </a>
+                <a href="#">
+                    <p><i class="fa-solid fa-angles-right"></i></p>
+                </a>
+            </div>
+
+            <button type="button">문의하기</button>
+                   
+        </div>
+
+        <div id="delivery">
+            <h2 id="sub4">배송 안내</h2>
+
+            <ol>
+                <li><strong>배송비</strong>
+                    <ul>
+                        <li>전국 무료 배송 및 설치를 진행하고 있습니다. <br>
+                            제주도는 제주 지역 배송비 부담 시, 온라인 주문도 가능합니다. <br> (아래 “제주 지역 배송비 관련” 내용 참고)
+                            단, 제주도를 제외한 울릉도 등 도서/산간 지역의 경우 택배상품만 온라인 주문이 가능합니다.
+                            설치배송은 가까운 매장에 문의 부탁 드립니다.
+                            ※ 제주 지역 배송비 관련</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <ol>
+                <li><strong>배송비 안내</strong>
+                    <ul>
+                        <li>제주 지역 배송비는 소비자가(정가)의 약 4% 입니다.
+                            정확한 금액은 주문 이후 결제안내 알림톡을 통해 확인 가능합니다</li>
+                    </ul>
+                </li>
+                <li><strong>배송비 입금</strong>
+                    <ul>
+                        <li>주문 이후 발송되는 결제 안내 알림톡을 통해 결제 가능합니다.
+                            제주배송비 결제는 알림톡 수신일 포함 2일 이내에 진행해 주셔야 합니다. <br>(기간 안에 결제되지 않을 경우 주문은 자동 취소되며, 상품 배송 원하실 경우
+                            재주문으로 진행해 주셔야 하는 점
+                            양해 부탁드립니다.) <br>
+                            배송비 결제 안내 알림톡을 수신하지 못하신 경우 고객센터로 문의 부탁드립니다. (주말/공휴일 제외)
+                            배송비도 현금영수증 발행이 가능하오니, 결제 시 현금영수증 정보를 입력해주세요.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <div class="del">
+
+                <div>
+                    <p>주문당일배송<br>
+                        예정일<br> 확정알림톡<br> 발송</p>
+                    
+                </div>
+
+                <p><i class="fa-solid fa-circle-chevron-right"></i></p>
+
+                <div>
+                    <p>배송 전 <br>
+                        3일까지배송 <br>
+                        준비중배송일 <br>
+                        변경 가능</p>
+                </div>
+
+                <p><i class="fa-solid fa-circle-chevron-right"></i></p>
+
+                <div>
+                    <p>배송 하루 전일,
+                        오후 배송
+                        확정<br>
+                        알림톡 발송<br>
+                        (택배 배송은
+                        송장번호 발송)</p>
+                    
+                </div>
+
+                <p><i class="fa-solid fa-circle-chevron-right"></i></p>
+
+                <div>
+                    <p>배송 당일배송
+                        설치완료 후<br>
+                        수령확인
+                        서명진행
+                        (택배품목 제외)</p>
+                </div>
+            </div>
+
+            <p>
+                배송일 지정은 주문 당일 알림톡을 받으신 후 AI챗봇을 통해 직접 변경하실 수 있습니다.만약 주문일의 익일 15시까지 알림톡을 수신하지 못한 경우,
+                일룸 고객센터(1588-6792)로 연락해주세요<br>
+                배송 전일 오후에 담당 시공팀이 방문시간을 안내 드립니다<br>
+                단, 제주 지역의 경우, 알림톡으로 안내되는 날짜는 실제 고객 배송일이 아닌 제품의 제주도 도착일입니다<br>
+                실제 시공일은 영업일 기준 2~3일 추가 소요됩니다. 정확한 배송일은 별도 안내드릴 예정입니다.</p>
+
+
+        </div>
+
+        <div id="as">
+
+            <h2>취소/반품/AS안내</h2>
+            <h4>주문취소 및 반품기 기준</h4>
+
+            <table>
+                <tr>
+                    <td>주문 후~배송 전일</td>
+                    <td>무상 주문 취소 가능</td>
+                </tr>
+
+                <tr>
+                    <td>배송 당일~배송 후 7일 이내</td>
+                    <td>구매 품목별과 반품비 부과<br>
+                        (하단 상세내용 04.반품비 부과 기준 참고)</td>
+                </tr>
+
+                <tr>
+                    <td>7일 이후</td>
+                    <td>반품 불가</td>
+                </tr>
+            </table>
+
+            <ol>
+                <li>
+                    <h3>주문변경</h3>
+                    <ul>
+                        <li>동일한 주문의 일부 상품의 옵션, 상품을 변경 시에는 전체 취소 후 새로 주문하셔야 합니다.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>주문 취소</h3>
+                    <ul>
+                        <li>결제하신 상품의 주문취소를 원하시는 경우, 배송 예정일은 영업일 기준 3일 전까지 '[마이원룸]>[나의쇼핑내역]>[주문/배송조회]'에서 취소 요정 가능합니다.
+                        </li>
+                        <li>배송이 진행되면 주문 취소가 불가능하므로, 반드시 고객센터로 연락 부탁 드립니다. 배송 당일 취소 요청시 반품비가 발생하며 이는 고객님 부담입니다.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>반품 안내</h3>
+                    <ul>
+                        <li>공정거래 위원회 표준 약관에 의거, 고객변심에 의한 반품은 상품 수령 후 7일 이내 가능합니다. <br>
+                            （단, 일룸 공식몰 아울렛 제품 구매 후 변심은 반품이 불가합니다.）</li>
+                        <li>가구 특성 사, 설치 및 조립이 된 상품이나 비닐 포장이 손상된 제품은 재화의 가치가 현저히 감소하므로 7일 이내에 신청하시더라도
+                            고객 변심에 의한 반품이 불가합니다.</li>
+                        <li>매트리스, 토퍼 등의 고객님의 피부가 직접 닿는 제품은 위생 관리상 비닐 포장 개봉 및 사용은 제품의 가치가 현저히 하락되어 재판매가 불가능하므로 반품이 불가능
+                            합니다.</li>
+                        <li>허용 오차(공정거래위원회 고시+5mm미만) 및 자재의 특성 (원목,가죽)에 따른 반품은 불가합니다.</li>
+                        <li>임의로 해외로 제품을 배송하여 하자가 발생하는 경우는 반품이 불가합니다.</li>
+                        <li>재화 등의 내용이 표시, 광고의 내용과 다르거나 계약 내용과 다르게 이행된 경우에는 그 재화 등을 공급받은 날부터 3개월 이내, 그 사실을 안 날 또는 알 수 있었던
+                            날부터 30일 이내에 반품이 가능합니다.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+   
+    <footer>
+
+        <div class="container">
+
+            <div id="footer1">
+                <div id="footer1-1">
+                    <div>
+                        <img src="./img/logo2.png" alt="footerimg">
+                    </div>
+
+                    <div>
+                       
+                        <ul>
+                            <h4>ABOUT</h4>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">매장안내</a></li>
+                            <li><a href="#">인재채용</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        
+                        <ul>
+                            <h4>INFO</h4>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">윤리신고센터</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                       
+                        <ul> 
+                            <h4>SUPPORT</h4>
+                            <li><a href="#">고객지원</a></li>
+                            <li><a href="#">서비스 센터</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+
+                        
+                        <ul>
+                            <h4>고객센터 전화문의</h4>
+                            <li><a href="#">1577-5670</a></li>
+                            <li><a href="#">평일 9:30~17:30 <br>(점심시간 12:30~13:30)</a></li>
+                            <li><a href="#">토요일 9:30~12:30<br>(쇼핑몰 구매상담 제외)</a></li>
+                        </ul>
+
+
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-solid fa-b"></i></a>
+
+
+                    </div>
+                 </div>
+            </div>
+
+            <div id="footer2">
+                
+                <div class="footer2">
+                    <ul>
+                        <li>서울시 송파구 오금로 311 (오금동45-1) (주)일룸 ·대표이사 정보은</li>
+                        <li>개인정보보호 책임자 : 정보은</li>
+                        <li>사업자등록번호 : 215-86-93600·통신판매업신고 : 2009-서울송파-0069호·부가통신사업신고필증 : 021129</li>
+                        <li>호스팅 서비스사업자 · (주)일룸</li>
+                        <li>webmaster@iloom.com·Copyright (c) 2018 iloom lnc. All rights reserved</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

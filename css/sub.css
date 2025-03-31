@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+a {color: #333;}
+
+/* 서브결제창 */
+#sub {padding-top: 180px; width: 1280px; height: 904px;}
+
+.subimg {float: left; width: 582px; height: 700px;}
+.subimg div {float: left;}
+
+.subimg img {transition: all 0.8s ease; opacity: 1; vertical-align: bottom;}
+.subimg img:hover {opacity: 0.3;}
+
+#subimg1 {width: 582px; height: 582px; display: block;}
+#subimg2 {width: 582px; height: 582px; display: none;}
+#subimg3 {width: 582px; height: 582px; display: none;}
+
+#mini1 {margin: 15px 20px 0 0;}
+#mini2 {margin: 15px 20px 0 0;}
+#mini3 {margin: 15px 20px 0 0;}
+
+
+
+#subtable {float: right; width: 578px; height: 582px; }
+
+.subtable1 {width: 578px; height: 472px; color: #333;} 
+.subtable1 thead {height: 150px; border-bottom: 1px solid #b4b4b4;}
+.subtable1 thead>tr:nth-of-type(1) {font-size: 35px; font-weight:bold; 
+                                    border-bottom: 1px solid #b4b4b4;}  
+.subtable1 span::after {content: "♡"; float: right; font-size: 30px; color: darkred;}                          
+.subtable1 thead>tr:nth-of-type(2) {font-size: 30px; font-weight: bold; text-align: right; color: darkred;}
+.subtable1 tbody {width: 578px; border-bottom: 1px solid #b4b4b4; font-size: 17px;}
+.subtable1 tfoot {width: 578px; border-bottom: 1px solid #b4b4b4; font-size: 17px;}
+
+.subtable1 th {width: 80px; padding: 8px;}
+.subtable1 input[type="radio"] {margin: 15px 20px 0 20px;}
+.subtable1 input[type="number"] {width: 50px; height: 25px; text-align: center; margin-left: 20px;}
+
+.subtable1 button {width: 240px; height: 50px; 
+                  margin: 10px 15px;
+                  border: none; font-size: 18px; color: #333;
+                  background-color: #C4ECFD}
+.subtable1 button:hover {background-color: rgb(118, 195, 221); cursor: pointer;}
+
+.subtable2 {width: 578px; height: 110px; border-bottom: 1px solid #b4b4b4; color: #333;}
+
+/* 필수정보 */ 
+#info {margin: 80px auto; width: 1274px; height: 323px; color: #333;
+      border-top: 1px solid #b4b4b4;}
+
+.infotable:nth-child(1) {width: 370px;
+                         float: left; margin: 20px;}
+.infotable img {margin-top: 20px;}
+.infotable th {border-right: 1px solid #aaaaaa;}
+
+.infotable:nth-child(2) {padding: 84px; 
+                        text-align: left;
+                        line-height: 28px;}
+.infotable:nth-child(2) th, td {padding: 1px 15px;}
+
+/* 앵커바 */
+#anchorbar  {width: 100%; height: 64px; background-color: #C3E3F0;}
+.anchor {width: 100%; height: 100%; display:flex; margin: 30px auto; 
+         justify-content: space-between; 
+         align-items: center; align-items: center;
+         width: 1280px;}
+.anchor p {font-size: 22px; font-weight: bold; color: #333;}
+.anchor p:hover {cursor:pointer;}
+
+/* 컨텐츠 */
+#contents {width: 856px; margin: 150px auto;}
+
+/* hr */
+hr {margin-bottom: 100px; border: 1px dotted #b4b4b4;}
+
+/* 서브-리뷰 */
+#subreview {width: 1274px; height: 727px;}
+#subreview h2 {width: 1274px; height: 53px; 
+              padding: 12px; color: #333;
+              background: linear-gradient(to right, #C1E1EF , #FFFFFF);}
+
+.reviewtable table {margin-top: 10px; width: 1274px; height: 678px;
+                    border-top:1px solid #b4b4b4;}
+.reviewtable img {width: 180px; height: 180px;
+                 background-color: #C1E1EF;}
+
+.re1 {height: 15px; color: darkred; font-weight: bold;}
+.re2 {width: 150px; text-align: right; padding: 20px; color: #333;}
+.re3 {width: 944px; height: 170px; line-height: 30px; color: #333;}
+
+#reviewbutton {width: 1274px; height: 49px; text-align: center; margin-top: 10px;}
+
+.reviewtable td:nth-of-type(1) {border-bottom: 1px solid #b4b4b4;}
+
+.revbt select {width: 180px; height: 40px; color: #333;
+                     float: left; margin-right: 340px;
+                     border: none; background-color: #C3E3F0;}
+.revbt option {text-align: center; color: #333;}
+
+.revbt a {float: left; padding:0 20px 0 20px;  color: #333;}
+
+.revbt button {width: 180px; height: 40px; color: #333;
+      float: right; 
+      border: none;
+      background-color: #C3E3F0;}
+.revbt button:hover {cursor: pointer; background-color: rgb(118, 195, 221);}
+
+
+/* QNA */
+#qna {margin-top: 230px; width: 1274px; height: 191px; }
+#qna h2 {width: 1274px; height: 53px; padding: 12px; color: #333; background: linear-gradient(to right, #C1E1EF , #FFFFFF);}
+
+#qna table {width: 1274px; height: 54px; margin: 22px 0 20px 0; color: #333;
+            border-top: 1px solid #b4b4b4;; border-bottom: 1px solid #b4b4b4;;}
+#qna td {padding: 15px;}
+#qna td:nth-of-type(1) {color: darkred;}
+
+.qnafooter:nth-of-type(1) {padding-left: 530px;}
+#qna a {float:left; text-align: center; padding: 0 20px 0 20px; color: #333;}
+#qna button {width: 180px; height: 40px; float: right; color: #333;
+             border: none;
+             background-color: #C3E3F0}
+#qna button:hover {cursor: pointer; background-color: rgb(118, 195, 221);}
+
+/* 배송안내 */
+#delivery {margin-top: 120px; width: 1274px; height: 900px; background-color: #f0f0f0; color: #333;}
+#delivery h2 {width: 1274px; height: 53px; padding: 12px; background: linear-gradient(to right, #C1E1EF , #FFFFFF);}
+#delivery ol {width: 1220px; height: 160px; margin: 20px auto;}
+#delivery ol, ul, li {padding: 3px; font-size: 17px; color: #333;} 
+
+
+.del>div {width: 180px; height: 170px;
+      float: left; margin:55px; color: #333;
+      background-color: #E4F7FF;}
+.del>div> p {text-align: center; padding: 27px;
+        font-size: 18px; font-weight: bold; color: #333; }
+.del>p {float: left; margin-top: 120px; font-size: 30px; color: #333;}
+#delivery>p {clear: both; padding: 30px;}
+
+
+/* AS/취소 */
+#as {margin-top: 100px; width: 1274px; height: 700px; color: #333; background-color: #f0f0f0;}
+#as h2 {width: 1274px; height: 53px; padding: 12px; color: #333; background: linear-gradient(to right, #C1E1EF , #FFFFFF);}
+#as h4 {margin-top: 10px;padding: 10px;}
+
+#as table {width: 1266px; height: 191px; margin: 10px 0 20px 3px; 
+            font-size: 15px; color: #333; background-color: #E4F7FF}
+#as tr, #as td {padding: 10px; border: 1px solid #b4b4b4;}
+#as table td:nth-of-type(1) {width: 408px;}
+#as ol {width: 1210px; height: 475px; margin: 0 auto;}
+#as li {font-size: 14px;color: #333;}

@@ -1,0 +1,157 @@
+@charset "utf-8";
+        
+    /* 바디 */
+    
+    
+    /* 슬라이더 */
+    
+    #slider {width: 100%; height: 761px; margin: 0 auto; padding-top: 80px;}
+    
+    .slider1 {float: left;
+              width: 50%; height: 761px; 
+              background-color:rgba(181, 196, 203, 1);}
+    
+    .slider1 p {margin: 100px; letter-spacing: 15px; line-height: 80px;}
+    .slider1 p:nth-of-type(1) {font-size: 80px; font-weight: bold; 
+                                font-family: "DM Serif Text", serif;
+                                font-weight: 400;
+                                font-style: normal;
+                               color: rgba(238, 233, 229, 1);}
+    .slider1 p:nth-of-type(2) {font-size: 32px;}
+    .slider1 a {margin: 100px ; font-size: 20px; font-weight: bold; 
+                color: #333;}
+     
+    .slider1:nth-child(1) {float: left; width: 50%; height: 761px;
+                            background: url('../img/slider.jpg') center/cover no-repeat;}
+    
+             
+    /* 리뷰 */
+    
+    #review {margin: 0 auto;
+            margin-top: 252px;
+            width: 1280px; height: 746px;}
+    
+    #review h1 {text-align: center; 
+                padding: 30px; color: #333;
+                font-family: "DM Serif Text", serif;
+                font-weight: 400;
+                font-style: normal;}
+    #review hr {margin: 30px; border: 2px dotted #c7c7c7}
+    #review div>div:last-child {float: right; font-size:28px; font-weight: bold;}
+    #review a {margin-right: 20px; color: #333;}
+    
+    .view {display: inline-block; margin:19px;
+           width: 383px; height: 500px;
+           border: 1px solid #c7c7c7;
+           box-shadow: 3px 3px 3px #8d8d8d;}
+    .view img {width: 372px; height: 353px; margin: 5px;}
+    .view p {margin-left: 10px; line-height: 15px;}
+    .view p:nth-of-type(1) {margin-top: 30px ; font-size: 30px; color: rgb(189, 8, 8);}
+    .view p:nth-of-type(2) {margin-bottom: 20px; font-size: 18px; color: #333;}
+    .view span {float: right; margin-top: 20px; margin-right: 10px;
+                font-size: 28px; color: rgb(189, 8, 8);}
+        
+    
+    /* 배너1 */
+    
+    #banner1 {margin-top: 112px;
+            width: 100%; height: 741px; 
+            background: url('../img/banner1.jpg') no-repeat center/cover;}
+    
+    .banner1 {float: left; letter-spacing: 10px; 
+              width: 50%; height: 741px;}
+    .banner1 p:nth-of-type(1) {margin: 30px; padding-top: 5px;
+                               font-size: 60pt; font-weight: bold;                  
+                               color: rgb(113, 117, 134);}
+    .banner1 p:nth-of-type(2) {margin: 20px; line-height: 50px; 
+                               font-size: 25px; color: #333;}
+    .banner1 a {float: right; 
+                font-size: 20px; font-weight: bold;
+                color: #4d4d4d;}
+                
+    .banner1 img {float: right; margin: 35px;
+                  width: 620px; height: 640px;               
+                  border-radius: 50%;
+                  background-color: royalblue;}
+    
+    
+    
+    /* 뉴 */
+    
+    #new {margin: 0 auto; margin-top: 112px;
+        width: 1280px; height: 607px;}
+    
+    #new h1 {text-align: center;
+             padding: 20px; color: #333;
+             font-family: "DM Serif Text", serif;
+             font-weight: 400;
+             font-style: normal;}
+    #new hr {margin:0 auto; width: 1260px; border: 1px dotted #a0a0a0;}
+    #new div>div:last-child {float: right; font-size:28px; font-weight: bold;}
+    #new a {padding-right: 15px; color: #333; font-size: 20px;}
+    
+    .arri {display: inline-block; margin: 4px;
+           width: 307px;}
+    .arri p {margin-top: 10px;}
+    .arri p:nth-of-type(1) {font-size: 20px; font-weight: bold;color: #333;}
+    .arri p:nth-of-type(2) {font-size: 15px; color: rgb(126, 126, 126);}
+    .arri p:nth-of-type(3) {color: #d33737}
+    .arri img:hover {opacity: 0.5; transition: 0.5s;}
+    
+    /* 배너2 */
+    
+    #banner2 {margin-top: 112px;
+              width: 100%; height: 662px;}
+    
+    .banner2 {float: left; margin: 0 auto;
+             width: 50%; height: 662px; background-color: rgba(181, 196, 203, 1);}
+    
+    .banner2:nth-child(1) {float: left; width: 50%; height: 662px;
+                           background: url('../img/b2.jpg') center/cover no-repeat;}
+    .banner2:nth-child(2) {width: 50%; height: 662px; 
+                           line-height: 60px;
+                         background-color: rgba(181, 196, 203, 1);}
+    
+    .banner2 p {margin: 40px; 
+                line-height: 60px; letter-spacing: 10px}
+    .banner2 p:nth-of-type(1) {font-size: 75px; font-weight: bold;
+                               color: rgba(238, 233, 229, 1);}
+    .banner2 p:nth-of-type(2) {font-size: 25px;}
+    .banner2 p:nth-of-type(3) {font-size: 25px;font-weight: bold;}
+    .banner2 p:nth-of-type(4) {font-size: 25px;}
+    .banner2 p:not(:nth-of-type(1)) {color: #333;}
+    .banner2 a {margin: 40px; font-size: 20px; font-weight: bold; 
+                color: #333;}
+    
+    
+       
+    
+    /* 매거진 */
+
+    #magazine h1 {text-align: center; padding: 20px; 
+                font-family: "DM Serif Text", serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #333;}
+    
+    #magazine {margin: 0 auto; margin-top: 112px; 
+                width: 1280px; height: 551px;}
+    #magazine a {color: #333;}
+    #magazine a:nth-of-type(4) {float: right; font-size: 25px;
+                                font-size: 20px; font-weight: bold;}
+    
+    .zin {float: left; margin: 7px; text-align: center;
+          width: 412px;line-height: 30px;}
+    
+    .zinimg {border: 1px solid #cacaca; border-radius: 10px; background-color: white;
+             box-shadow: 2px 2px 2px #a0a0a0;}
+    .zinimg img {padding: 2px;}
+    .zinimg p {font-size: small; color: #949494;}
+
+    .zintext p:nth-of-type(1) {margin-top: 20px; font-size: 25px; font-weight: bold; color: #333;}
+    .zintext p:not(:nth-of-type(1)) {letter-spacing: 5px; font-size: 20px; color: #8d8d8d;}
+   
+    .zinimg {transition: all 0.2s ease;}
+    .zinimg:hover {transform:scale(1.1); }
+    
+    
